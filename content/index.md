@@ -1,3 +1,6 @@
+cd ~/Documents/quartz
+
+cat > content/index.md <<'EOF'
 ---
 title: 我的知識庫
 ---
@@ -16,7 +19,7 @@ title: 我的知識庫
 
 <div class="kb-grid">
 
-<a class="kb-card" href="/🏯佛堂/">
+<a class="kb-card" href="/我的知識庫/🏯佛堂/">
   <div class="kb-card-icon">🏯</div>
   <div class="kb-card-body">
     <div class="kb-card-title">佛堂</div>
@@ -25,7 +28,7 @@ title: 我的知識庫
   <div class="kb-card-arrow">→</div>
 </a>
 
-<a class="kb-card" href="/🌍eSIM/">
+<a class="kb-card" href="/我的知識庫/🌍 eSIM/">
   <div class="kb-card-icon">🌍</div>
   <div class="kb-card-body">
     <div class="kb-card-title">eSIM</div>
@@ -34,7 +37,7 @@ title: 我的知識庫
   <div class="kb-card-arrow">→</div>
 </a>
 
-<a class="kb-card" href="/👨‍👩‍👧‍👦家庭/">
+<a class="kb-card" href="/我的知識庫/👨‍👩‍👧‍👦 家庭/">
   <div class="kb-card-icon">👨‍👩‍👧‍👦</div>
   <div class="kb-card-body">
     <div class="kb-card-title">家庭</div>
@@ -43,7 +46,7 @@ title: 我的知識庫
   <div class="kb-card-arrow">→</div>
 </a>
 
-<a class="kb-card" href="/💼工作/">
+<a class="kb-card" href="/我的知識庫/💼 工作/">
   <div class="kb-card-icon">💼</div>
   <div class="kb-card-body">
     <div class="kb-card-title">工作</div>
@@ -52,7 +55,7 @@ title: 我的知識庫
   <div class="kb-card-arrow">→</div>
 </a>
 
-<a class="kb-card" href="/📚書籍/">
+<a class="kb-card" href="/我的知識庫/📚 書籍/">
   <div class="kb-card-icon">📚</div>
   <div class="kb-card-body">
     <div class="kb-card-title">書籍</div>
@@ -61,7 +64,7 @@ title: 我的知識庫
   <div class="kb-card-arrow">→</div>
 </a>
 
-<a class="kb-card" href="/📝筆記/">
+<a class="kb-card" href="/我的知識庫/📝 筆記/">
   <div class="kb-card-icon">📝</div>
   <div class="kb-card-body">
     <div class="kb-card-title">筆記</div>
@@ -71,3 +74,6 @@ title: 我的知識庫
 </a>
 
 </div>
+EOF
+
+~/Desktop/發布知識庫.command
